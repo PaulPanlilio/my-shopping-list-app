@@ -4,6 +4,15 @@
   <meta charset="UTF-8" />
   <title>My Shopping List</title>
   <link rel="stylesheet" type="text/css" href="add-items.css"
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btn").click(function(){
+        $("ol").append("<li></li>");
+    });
+});
+</script>
 </head>
 <body>
 <section class="orange">
@@ -33,6 +42,17 @@
   <input type="checkbox" name="milk" value="milk">milk
     <br>
   </form> 
+</section>
+<section class="2nd-try">
+  <ol>
+  <li>mango</li>
+  <li>banana</li>
+  <li>orange juice</li>
+</ol>
+
+<button id="btn">Add Items</button>
+<input id="add-items" type="text">
+
 </section>
   
 </body>

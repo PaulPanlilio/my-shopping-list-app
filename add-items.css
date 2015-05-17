@@ -37,3 +37,14 @@
   text-align: center;
   font-size: 15px;
 }
+
+.2nd-try {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25px; 
+  background: white;
+  color: orange;
+  text-align: center;
+  font-size: 15px;
+}
